@@ -11,11 +11,11 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Bot sozlamalari
-BOT_TOKEN = "7228078072:AAH8DrLUn5u9tXbHU_AnmBnWwZ2KLuvdozY"
+BOT_TOKEN = "7228078072:AAEh8Bl0OcAlxKZ0NFzTd8ZZQ39UbZr6A54"
 CHANNEL_USERNAME = "@Sardor_ludoman"
 ADMIN_ID = 6852738257
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
-WEBHOOK_URL = "https://ker-lq4x.onrender.com"  # Bu yerga o'z domeningizni kiriting
+WEBHOOK_URL = " https://ker-lq4x.onrender.com"  # Bu yerga o'z domeningizni kiriting
 
 # Global o'zgaruvchilar
 user_states = {}
