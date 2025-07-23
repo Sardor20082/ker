@@ -584,9 +584,9 @@ def setup_webhook():
         return f"Webhook o'rnatishda xato: {result}"
 
 if __name__ == "__main__":
+    print("🤖 Flask Bot ishga tushmoqda...")
+    print("🔗 Webhook o'rnatish uchun: /set_webhook sahifasiga kiring")
 
-print("🤖 Flask Bot ishga tushmoqda...")
-print("🔗 Webhook o'rnatish uchun: /set_webhook sahifasiga kiring")
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port, debug=True)
 
-port = int(os.environ.get("PORT", 10000))
-app.run(host='0.0.0.0', port=port, debug=True)
